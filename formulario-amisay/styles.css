@@ -1,0 +1,73 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #f00; /* Color de Coca-Cola */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-form h2 {
+    color: #f00; /* Color de Coca-Cola */
+    text-align: center;
+}
+
+.contacto-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contacto-form input[type="text"],
+.contacto-form input[type="email"],
+.contacto-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacto-form button {
+    background-color: #f00; /* Color de Coca-Cola */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto-form button:hover {
+    background-color: #c00; /* Color de Coca-Cola más oscuro */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}

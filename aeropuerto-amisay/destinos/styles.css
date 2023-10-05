@@ -1,0 +1,44 @@
+/* Animación para el encabezado */
+header {
+    animation: fadeInUp 1s ease;
+}
+
+/* Animación para los destinos */
+.destino {
+    animation: fadeIn 1s ease, scaleUp 0.5s ease;
+}
+
+/* Animación para los videos de YouTube */
+iframe {
+    animation: fadeIn 1s ease;
+}
+
+/* Definición de animaciones */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}

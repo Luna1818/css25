@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para la lista de canciones */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+/* Estilos para las imágenes de las canciones */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para la imagen principal */
+img[alt=""] {
+    max-width: 300px;
+    margin: 20px 0;
+}
+

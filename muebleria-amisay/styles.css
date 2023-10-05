@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos para los precios */
+li:last-child {
+    font-size: 28px;
+    color: #ff0000;
+}

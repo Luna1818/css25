@@ -1,0 +1,78 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0d0d; /* Color de fondo */
+    color: #333; /* Color de texto principal */
+}
+
+header {
+    background-color: #007bff; /* Color de fondo del encabezado */
+    color: white; /* Color de texto del encabezado */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    color: white; /* Color de texto de la barra de navegación */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+iframe {
+    right: 700%;
+    max-width: 600px; /* Ancho máximo del reproductor de video */
+    height: auto;
+}
+
+/* Estilos de secciones */
+.section {
+    padding: 20px;
+    background-color: white; /* Color de fondo de las secciones */
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.section h2 {
+    font-size: 24px;
+    color: #007bff; /* Color del título de la sección */
+}
+
+.section p {
+    font-size: 16px;
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white; /* Color de texto del pie de página */
+    padding: 10px 0;
+}
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
